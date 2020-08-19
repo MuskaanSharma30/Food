@@ -157,17 +157,38 @@ html {
   color: aliceblue;
 }
 .footer {
-  background-color: rgb(185, 104, 104);
-  text-align: center;
-  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(20, 87, 27);
+  color: aliceblue;
   font-family: "Baloo Tamma 2", cursive;
 }
 input {
+  margin-top: 10px;
   border-radius: 50px;
-  margin-top: 30px;
   background-color: transparent;
   border-color: rgb(119, 41, 41);
+  border-color: transparent;
+}
+button {
+  background-color: greenyellow;
+  font-family: "Baloo Tamma 2", cursive;
+  border-radius: 5px;
 }
 ::placeholder {
   color: black;
+}
+.A {
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 22px;
+}
+.B {
+  margin-top: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+.C {
+  color: aliceblue;
+  margin-top: 30px;
 }
