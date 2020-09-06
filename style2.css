@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.background {
+  background-image: url(x1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.about {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin-left: 760px;
+  text-decoration: underline;
+}
+.text {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  width: 650px;
+  font-size: 20px;
+  margin-left: 520px;
+}
+.icons {
+  margin-left: 800px;
+}

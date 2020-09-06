@@ -17,6 +17,7 @@ body {
 .background {
   height: 100vh;
   background-image: url(bg.jpg);
+  background-attachment: fixed;
   background-size: cover;
 }
 .container {
